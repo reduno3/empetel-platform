@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="EMPETEL: reparación móvil, repuestos, equipos nuevos y acondicionados con atención directa por WhatsApp."
+    />
+    <title>EMPETEL | Reparación Móvil y Catálogo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <div class="bg-orb orb-one"></div>
+    <div class="bg-orb orb-two"></div>
+
+    <header class="topbar">
+      <div class="container nav">
+        <div class="brand">
+          <span class="brand-mark">E</span>
+          <span>EMPETEL</span>
+        </div>
+
+        <nav class="main-menu">
+          <a href="#servicios">Servicios</a>
+          <a href="#repuestos">Repuestos</a>
+          <a href="#marcas">Marcas</a>
+          <a href="#nuevos">Nuevos</a>
+          <a href="#club">Club Mayorista</a>
+        </nav>
+
+        <a
+          class="btn btn-primary"
+          href="https://wa.me/34600000000?text=Hola%20EMPETEL%2C%20quiero%20reparar%20mi%20m%C3%B3vil"
+          target="_blank"
+          rel="noreferrer"
+        >
+          WhatsApp
+        </a>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <span class="eyebrow">Clínica del móvil</span>
+            <h1>Reparación y tecnología que impulsa tu negocio.</h1>
+            <p>
+              Somos EMPETEL, tu centro especializado en reparación móvil, repuestos,
+              productos nuevos y equipos reacondicionados. Atendemos con rapidez,
+              calidad y un servicio directo desde WhatsApp.
+            </p>
+
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="#catalogo">Ver catálogo</a>
+              <a class="btn btn-secondary" href="#servicios">Nuestros servicios</a>
+            </div>
+
+            <ul class="hero-highlights">
+              <li>Diagnóstico rápido</li>
+              <li>Garantía profesional</li>
+              <li>Atención 100% directa</li>
+            </ul>
+          </div>
+
+          <div class="hero-card">
+            <div class="card-glow"></div>
+            <div class="mini-panel">
+              <span class="mini-label">Especialistas</span>
+              <h3>Rápido • Seguro • Profesional</h3>
+            </div>
+
+            <div class="stats-grid">
+              <div>
+                <strong>+20k</strong>
+                <span>reparaciones</span>
+              </div>
+              <div>
+                <strong>97%</strong>
+                <span>satisfacción</span>
+              </div>
+              <div>
+                <strong>24h</strong>
+                <span>de entrega</span>
+              </div>
+              <div>
+                <strong>15+</strong>
+                <span>marcas</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="trust-bar">
+        <div class="container trust-grid">
+          <div>Servicio técnico</div>
+          <div>Repuestos premium</div>
+          <div>Venta directa</div>
+          <div>Atención WhatsApp</div>
+        </div>
+      </section>
+
+      <section id="servicios" class="section">
+        <div class="container">
+          <div class="section-heading">
+            <span class="eyebrow">Servicios</span>
+            <h2>Todo lo que necesita tu móvil y tu negocio</h2>
+          </div>
+
+          <div class="cards-grid services-grid">
+            <article class="info-card">
+              <div class="icon">🔧</div>
+              <h3>Reparación técnica</h3>
+              <p>Pantallas, baterías, cámara, cargadores, con diagnóstico preciso y reparación profesional.</p>
+            </article>
+
+            <article class="info-card">
+              <div class="icon">📦</div>
+              <h3>Repuestos</h3>
+              <p>Componentes originales y compatibles para los principales fabricantes del mercado.</p>
+            </article>
+
+            <article class="info-card">
+              <div class="icon">📱</div>
+              <h3>Marcas</h3>
+              <p>Apple, Samsung, Xiaomi, Huawei, Motorola y muchas más en un catálogo actualizado.</p>
+            </article>
+
+            <article class="info-card">
+              <div class="icon">🆕</div>
+              <h3>Nuevos</h3>
+              <p>Equipos recientes, compra directa y financiación para clientes que buscan calidad y rapidez.</p>
+            </article>
+
+            <article class="info-card">
+              <div class="icon">♻️</div>
+              <h3>Acondicionados</h3>
+              <p>Dispositivos revisados, probados y listos para uso con garantía y ahorro real.</p>
+            </article>
+
+            <article class="info-card">
+              <div class="icon">💼</div>
+              <h3>Club Mayorista</h3>
+              <p>Soluciones para distribuidores, tiendas y clientes que requieren volumen y continuidad.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="catalogo" class="section alt-bg">
+        <div class="container">
+          <div class="catalog-header">
+            <div>
+              <span class="eyebrow">Catálogo</span>
+              <h2>Explora marcas, productos y categorías</h2>
+            </div>
+
+            <div class="catalog-actions">
+              <input type="search" id="searchInput" placeholder="Buscar por marca o producto" />
+              <select id="categoryFilter">
+                <option value="all">Todas</option>
+                <option value="reparacion">Reparación</option>
+                <option value="repuestos">Repuestos</option>
+                <option value="nuevos">Nuevos</option>
+                <option value="acondicionados">Acondicionados</option>
+                <option value="club-mayorista">Club Mayorista</option>
+              </select>
+            </div>
+          </div>
+
+          <div id="catalogGrid" class="catalog-grid"></div>
+        </div>
+      </section>
+
+      <section id="marcas" class="section">
+        <div class="container">
+          <div class="section-heading">
+            <span class="eyebrow">Marcas</span>
+            <h2>Trabajamos con las grandes marcas del mercado</h2>
+          </div>
+
+          <div class="brands-strip">
+            <span>Apple</span>
+            <span>Samsung</span>
+            <span>Xiaomi</span>
+            <span>Huawei</span>
+            <span>Motorola</span>
+            <span>Google</span>
+            <span>OnePlus</span>
+            <span>Realme</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="section cta-section">
+        <div class="container cta-box">
+          <div>
+            <span class="eyebrow">Venta directa</span>
+            <h2>Haz crecer tu catálogo con atención comercial profesional</h2>
+          </div>
+
+          <a
+            class="btn btn-primary"
+            href="https://wa.me/34600000000?text=Hola%20EMPETEL%2C%20quiero%20solicitar%20un%20presupuesto"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Pedir presupuesto
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-grid">
+        <div>
+          <div class="brand footer-brand">
+            <span class="brand-mark">E</span>
+            <span>EMPETEL</span>
+          </div>
+          <p>Atención directa, solución rápida y tecnología con servicio serio.</p>
+        </div>
+
+        <div>
+          <h4>Secciones</h4>
+          <ul>
+            <li>Servicios</li>
+            <li>Repuestos</li>
+            <li>Marcas</li>
+            <li>Club mayorista</li>
+          </ul>
+        </div>
+
+        <div>
+          <h4>Contacto</h4>
+          <ul>
+            <li>WhatsApp</li>
+            <li>Correo</li>
+            <li>Horario</li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <a
+      class="floating-whatsapp"
+      href="https://wa.me/34600000000?text=Hola%20EMPETEL%2C%20quiero%20consultar%20un%20servicio"
+      target="_blank"
+      rel="noreferrer"
+      aria-label="Ir a WhatsApp"
+    >
+      💬
+    </a>
+
+    <script src="/js/app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,22 @@
+{
+  "name": "empetel-platform",
+  "version": "1.0.0",
+  "description": "Plataforma institucional EMPETEL con landing page moderna y catálogo interactivo",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "node --watch app.js"
+  },
+  "keywords": [
+    "empetel",
+    "node",
+    "express",
+    "whatsapp",
+    "catalog"
+  ],
+  "author": "Copilot",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
